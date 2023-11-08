@@ -1,0 +1,23 @@
+{
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "files.exclude": {
+        "**/node_modules": false,
+        "**/dist": false,
+        "**/.turbo": false,
+        "**/tsconfig.json": false,
+        "**/.eslintrc.*": false,
+        "**/.prettierrc": false,
+        "**/.npmrc": false,
+        "**/.gitignore": false,
+        "**/.gitmodules": false,
+        "**/pnpm-*.yaml": false,
+        "**/vite.config.js": false,
+        "**/rollup.config.js": false,
+        "**/.husky": false,
+        "**/.travis.yml": false,
+        "**/.size-snapshot.json": false,
+        "**/.github": false,
+        "**/LICENSE": false
+    }
+}

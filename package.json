@@ -1,0 +1,27 @@
+{
+    "name": "game-engine",
+    "version": "0.0.1",
+    "private": true,
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "dev": "turbo run dev --parallel",
+        "dev-alt": "turbo run dev --no-cache --parallel --continue",
+        "build": "turbo run build",
+        "clean": "turbo run clean",
+        "lint": "turbo run lint",
+        "test": "turbo run test",
+        "format": "prettier --write \"**/*.{jx,jsx,ts,tsx,md}\""
+    },
+    "devDependencies": {
+        "eslint-config-custom": "workspace:*",
+        "prettier": "latest",
+        "turbo": "latest"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "packageManager": "pnpm@8.6.7"
+}
